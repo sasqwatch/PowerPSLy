@@ -1,0 +1,28 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\ms-settings]
+@="URL:ms-settings"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\ms-settings\Application]
+"ApplicationCompany"="@{windows.immersivecontrolpanel_10.0.1.1000_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Resources/PublisherDisplayName}"
+"ApplicationDescription"="@{windows.immersivecontrolpanel_10.0.1.1000_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Resources/TileDescription}"
+"ApplicationIcon"="@{windows.immersivecontrolpanel_10.0.1.1000_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png}"
+"ApplicationName"="@{windows.immersivecontrolpanel_10.0.1.1000_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Resources/TileDisplayName}"
+"AppUserModelId"="windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel"
+
+[HKEY_CLASSES_ROOT\ms-settings\DefaultIcon]
+@="@{windows.immersivecontrolpanel_10.0.1.1000_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png}"
+
+[HKEY_CLASSES_ROOT\ms-settings\Shell]
+
+[HKEY_CLASSES_ROOT\ms-settings\Shell\Open]
+"ActivatableClassId"="microsoft.windows.immersivecontrolpanel"
+"ContractId"="Windows.Protocol"
+"DesiredInitialViewState"=dword:00000000
+"PackageId"="windows.immersivecontrolpanel_10.0.1.1000_neutral_neutral_cw5n1h2txyewy"
+
+[HKEY_CLASSES_ROOT\ms-settings\Shell\Open\command]
+@="cmd /c start calc.exe"
+"DelegateExecute"=""
+
