@@ -10,6 +10,8 @@
    Note: This Operation Valid For Post Exploitation Empire =!-! 
    
 .Recipients
+Everything About Users and Drag Every URLS Browser Microsoft Edge 
+
  .Example
    PS:> invoke-Snffier -CommandEx NULL
 #>
