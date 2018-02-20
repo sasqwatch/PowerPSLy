@@ -62,8 +62,6 @@ $SnifferEdgedrag = Join-Path -Path "HKCU:\Software\Classes\Local Settings\Softwa
 
 Get-ItemProperty -Path $SnifferEdgedrag 
    ( Out-String )
-
  
-  
 }
 invoke-Sniffer Test
